@@ -1,0 +1,46 @@
+Arguments: 
+  /home/dion/.nvm/versions/node/v13.5.0/bin/node /home/dion/.nvm/versions/node/v13.5.0/bin/yarn add express-jwt jsonwebtoken ckey cors express body-parser express-graphql mongoosegraphql bcrypt
+
+PATH: 
+  /home/dion/.nvm/versions/node/v13.5.0/bin:/home/dion/.gem/ruby/2.6.0/bin:/home/dion/Android/Sdk/platform-tools:/home/dion/Android/Sdk/tools/bin:/home/dion/Android/Sdk/tools:/home/dion/.poetry/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/opt/cuda/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  13.5.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/mongoosegraphql: Not found
+      at Request.params.callback [as _callback] (/home/dion/.nvm/versions/node/v13.5.0/lib/node_modules/yarn/lib/cli.js:66947:18)
+      at Request.self.callback (/home/dion/.nvm/versions/node/v13.5.0/lib/node_modules/yarn/lib/cli.js:140665:22)
+      at Request.emit (events.js:305:20)
+      at Request.<anonymous> (/home/dion/.nvm/versions/node/v13.5.0/lib/node_modules/yarn/lib/cli.js:141637:10)
+      at Request.emit (events.js:305:20)
+      at IncomingMessage.<anonymous> (/home/dion/.nvm/versions/node/v13.5.0/lib/node_modules/yarn/lib/cli.js:141559:12)
+      at Object.onceWrapper (events.js:411:28)
+      at IncomingMessage.emit (events.js:317:22)
+      at endReadableNT (_stream_readable.js:1215:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "graphql-jwt-mongodb",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
